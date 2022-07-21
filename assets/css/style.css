@@ -1,0 +1,109 @@
+body{
+  margin: 0px;
+  background-color: black;
+ 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header{
+  height: 20rem;
+  background-image: url("../imgs/header.png");
+  
+  background-size: cover;
+  background-size: auto; 
+  background-position: center;
+
+}
+
+.opaco{
+  margin: auto 0 auto 0;
+}
+
+.header h1 {
+  /*  top right bottom left*/
+  padding: 3rem 0 0 3rem;
+  font-size: 3rem;
+  
+  font-weight: 400;
+  margin-bottom: 0;
+  color: red;
+  -webkit-text-stroke: 1px gold;
+  
+
+}
+.header h2 {
+  /*  top right bottom left*/
+  padding: 0 0 0 3rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-top: 0;
+  color: red;
+  -webkit-text-stroke: 1px gold;
+}
+
+
+.main {
+  width: 80%;
+  margin: auto;
+}
+
+.main td{
+  width: 50%;
+  padding: 2rem;
+}
+
+.main img{
+  max-width: 100%;
+  border: solid 1px #ddd;
+}
+
+.products {
+  width: 80%;
+  margin: auto;
+}
+
+.products td {
+  width: 50%;
+  padding: 2rem;
+}
+
+.products img {
+  width: 100%;
+  border: solid 1px #ddd;
+}
+section{
+  align-items: center;
+  width: 60%;
+  display: flex;
+  text-align: left;
+  margin: 2rem auto 2rem auto;
+  
+}
+article{
+    /*  top right bottom left*/
+  margin: auto 0 auto 2rem;
+  font-weight: 2rem;
+  white-space: nowrap;
+}
+
+p{
+  color: #ddd;
+}
+
+img{
+  max-width: 800px;
+  min-width:400px;
+    height: auto;
+}
+
+.footer{
+  height: 20rem;
+  background-image: url("../imgs/footer.jpg");
+  background-color: #FF7F00;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  font-weight: 900;
+
+}
